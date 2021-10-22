@@ -1,0 +1,106 @@
+
+
+
+.box a{
+    display:block;
+    background-color:#111;
+    color:#fff;
+    text-decoration:none;
+    padding:0.8em 1.8em;
+    font-size:90%;
+    letter-spacing:2px;
+    text-shadow:0 -1px 0 #000;
+    position:relative;
+    width:140px;
+}
+.box{
+    vertical-align:top;
+    display:inline-block;
+    box-shadow:
+    1px -1px -1px 1px #000,
+    1px -1px -1px 1px #fff,
+    0 0 6px 3px #fff;
+    border-radius:6px;
+
+}
+.box li{
+    position:relative;
+
+}
+.box >li{
+    float:left;
+    border-bottom:4px #aaa solid;
+    margin-right:1px;
+}
+.box > li >a{
+     margin-bottom:1px;
+     box-shadow:inset 0 2em .33em -0.5em #555; 
+}
+.box > li:hover,
+.box > li hover > a{
+  border-bottom-color: red;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.box li:hover > a{
+    color:red;
+}
+
+
+
+.box ul{
+    position:absolute;
+    white-space:nowrap;
+    border-bottom: 5px solid cyan;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index:1;
+    left:-99999em;
+  
+}
+.box > li:hover >ul{
+    left:auto;
+    margin-top:5px;
+    min-width:100%;
+}
+.box > li li:hover >ul{
+    left:100%;
+    margin-left:1px;
+    top:-1px;
+}
+.content {
+    max-width:800px;
+    text-align:left; 
+    margin:auto; 
+    }
+    .simple-ss {
+    width:100%;
+    height:200px;
+    background-color: #eeeeee;
+    margin:auto;
+    background-image:url("/imgsrc/webguide.jpg");
+    animation-name: slide;
+    animation-duration:15s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    }
+    @keyframes slide {
+    0% {background-position:0 0;}
+    16.66% {background-position:0 0;}
+    33.32% {background-position:-800px 0;}
+    49.98% {background-position:-800px 0;}
+    66.64% {background-position:-1600px 0;}
+    83.30% {background-position:-1600px 0;}
+    100% {background-position:0 0;}
+    /*
+0%   {top: 0px; left: 0px; background: red;}
+25%  {top: 0px; left: 100px; background: blue;}
+50%  {top: 100px; left: 100px; background: yellow;}
+75%  {top: 100px; left: 0px; background: green;}
+100% {top: 0px; left: 0px; background: red;}
+    */ 
+    }

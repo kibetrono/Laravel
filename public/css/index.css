@@ -1,0 +1,171 @@
+
+body {border:0; margin:0; padding:0; background:#F2F5FE ; font:70%/160% "verdana",sans-serif; color:#192666;}
+
+a {color:#192666;}
+a:hover {color:#4F6AD7;}
+
+
+
+h1, h2, h3, h4, h5 {border:0; margin:15px 0 10px 0; padding:0; font-weight:bold;}
+h1 {font-size:260%; line-height:100%; font-family:"georgia",serif; font-weight:normal;}
+h2 {font-size:180%; line-height:100%; font-family:"georgia",serif; font-weight:normal;}
+h3 {font-size:120%; line-height:100%; font-weight:bold;}
+h4 {font-size:120%;}
+h5 {font-size:100%;}
+
+table {display:table;  margin:15px 0; padding:0; border:1px solid #B7CAF6; font-size:100%;}
+tr {display:table-row;}
+th, td {display: table-cell; border:1px solid #B7CAF6; margin:0; padding:5px; vertical-align:top; text-align:left;}
+th {background:#E7ECFD; text-align:center; color:#192666; font-weight:bold;}
+
+/* Floating */
+.f-left {float:left;}
+.f-right {float:right;}
+
+/* Text align */
+.t-left {text-align:left;}
+.t-center {text-align:center;}
+.t-right {text-align:right;}
+
+.va-middle {vertical-align:middle;}
+
+.clear {clear:both;}
+.box {min-height:1px; _height:1px;}
+.box:after {content:"."; display:block; line-height:0px; font-size:0px; visibility:hidden; clear:both;}
+
+.nom {margin:0;}
+
+/* -----------------...........--------------------------------------------------------------------------------------- */
+
+#main {width:100%; margin:10px 0 auto; _text-align:left;}
+
+/* Header */
+#header {position:relative; width:100%; height:100px; margin:0; padding:0; background:#233C9B url("") 0 0 no-repeat; color:#FFF;}
+
+    /* logo */
+   #logo {position:absolute; top:35px; left:35px; margin:0;}
+/* Main menu (tabs) */
+#tabs {background:#192666; margin:0px; padding:10px 0 0 0; _height:1px;
+}
+    #tabs ul {margin:0 10px; padding:0; list-style:none;}
+    #tabs ul li {margin:0 5px 0 0; padding:0; float:left;}
+    #tabs ul li a {display:block; position:relative; padding:7px 15px; border:0; background:url("../design/tab_link.gif") 0 0 repeat-x; color:#B5C4E3; font-weight:bold; text-decoration:none; cursor:pointer;}
+
+
+/* Page (2 columns) */
+#page {width:100%; min-height:1px; }
+#page-in {min-height:1px; padding:10px 0; }
+
+/* Strip */
+
+
+/* Content */
+#content {float:left;width:85%; margin:0; padding:0 0 0 20px;}
+
+    /* Content - article */
+    #content .article {clear:both; margin-right:0%; padding:20px; background:lightblue url("../design/content_article_bg.jpg") 0 0 no-repeat;}
+    #content .article h2 {margin:0 -20px; padding:10px; background:#DEE5FD url("../design/content_title_bg.gif") 0 0 repeat-y; color:#192666;}
+    #content .article h2 span {background:url("../design/ico_list.gif") 0 50% no-repeat; padding-left:25px;}
+/* Right column */
+#col {float:left; width:200px; margin:0; padding:0; background:#CEDBF9 url("../design/col_bg.gif") 0 0 repeat-y;}
+#col-in {padding:20px 10px; background:url("../design/col_top.gif") 0 0 no-repeat;}
+#col h3 {padding:13px 15px 14px 15px; margin:0 -10px 15px -10px; background:#A0B9F3 url("../design/col_title_bg.gif") 0 0 repeat-y; color:#192666;}
+.login input[type="text"]
+{
+	background-color:#FFFFCC;
+	height:22px;
+	width:160px;
+	border:1px solid black;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:5px 0px 5px 0px;
+	color:#003366;
+}
+.login input[type="text"]:hover
+{
+	background-color:#003366;
+	height:22px;
+	width:160px;
+	border:1px solid black;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:5px 0px 5px 0px;
+	color:#FFFFFF;
+}
+.login input[type="password"]
+{
+	background-color:#FFFFCC;
+	height:32px;
+	width:160px;
+	border:1px solid black;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:5px 0px 5px 0px;
+}
+.login input[type="password"]:hover
+{
+	background-color:#003366;
+	
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  background:#343a40;/*DarkOliveGreen */
+  color:white;
+ padding-left:20px;
+ 
+
+}
+.column ul li a{
+color: lightblue;
+
+}
+/* Clear floats after the columns */
+
+
+#visit2 li{
+  
+display:inline;
+padding-left:10px;
+font-size:25px;
+
+}
+#visit2 li a{
+    color:yellow;  
+  }
+
+  .accordion {
+  color:lightblue;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.1s;
+  font-weight:bold; 
+font-size:11px;
+}
+
+.panel {
+  
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background:black;
+  color:white;
+  float:left;
+}
+
+#Main_Top{
+ 
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+ }
+ .MainContent{
+  margin-top:160px;
+ }
